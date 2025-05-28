@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>QR Medya Sayfası</title>
+</head>
+<body>
+  <h1>Medya Gönder</h1>
+  <form action="#" method="POST" enctype="multipart/form-data">
+    <label>Adınız:</label><br>
+    <input type="text" name="name" required><br><br>
+    
+    <label>Mesajınız:</label><br>
+    <textarea name="message"></textarea><br><br>
+    
+    <label>Fotoğraf / Video:</label><br>
+    <input type="file" name="media" accept="image/,video/" required><br><br>
+    
+    <button type="submit">Gönder</button>
+  </form>
+</body>
+</html>
